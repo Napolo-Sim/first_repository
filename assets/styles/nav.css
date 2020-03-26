@@ -1,6 +1,38 @@
-.header-text{
-    color: red;
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
-.header-2{
-    color: black;
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1abc9c;
+    height: 8vh;
+    /* vh = view height */
+}
+
+.nav h1{
+    color: whitesmoke;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.nav-items{
+    align-self: center;
+    margin-right: 20px;
+}
+
+.nav-items li{
+    color: whitesmoke;
+    list-style: none;
+    margin-right: 20px;
+    display: inline;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-items li:not(:last-child){
+    margin-right: 10px
 }
