@@ -5,6 +5,7 @@ body{
 
 .nav{
     display: flex;
+    /* justify context doesnt work unless display: flex is involved */
     justify-content: space-between;
     background-color: #1abc9c;
     height: 8vh;
